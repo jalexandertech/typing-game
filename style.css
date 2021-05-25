@@ -80,7 +80,7 @@ button{
     border: red;
   }
   
-  @media (max-width: 1045px){
+  @media (max-width: 900px){
       .container{
           width: 100vw;
       }
@@ -91,10 +91,17 @@ button{
         width: 20%;
     }
     img{
-        margin-top: 70%;
+        top:75%;
+        width: 45%;
     }
 
-    body{
-        overflow: auto;
+  }
+
+  @media (min-width:1500px){
+    .container{
+        width: 50%;
+        margin: auto 15%;
     }
   }
+  
+  
