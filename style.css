@@ -39,8 +39,8 @@ h1{
 }
 
 
-#qoute, #message{
-    text-align: left;
+ #message{
+    color: #ff0202;
 }
 
 p{
